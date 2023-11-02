@@ -1,0 +1,44 @@
+@font-face {
+    font-family:Heura ;
+    src: url("./assets/fonts/Heura.woff");
+}
+@media screen and(max-width:1024px) {
+    section{
+        background-color:red;
+    }    
+}
+*{
+    font-family: Heura;
+    margin: 0;
+}
+
+.contenedor{
+    width: 100%;
+    height: 200px;
+    background-color:gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 130px;
+    height: 40px;
+    margin-left: 40px;
+    padding: 0%;
+}
+span{
+    font-size: 20px;
+    padding: 10px;
+    transition: 1s;
+}
+
+span:hover{
+    background-color: black;
+    color: gold;
+}
+
+div:last-child{
+    margin-right: 30px;
+}
+
